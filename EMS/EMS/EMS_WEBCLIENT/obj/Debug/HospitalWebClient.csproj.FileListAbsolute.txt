@@ -1,0 +1,222 @@
+D:\soc\HospitalService1\HospitalWebClient\bin\HospitalWebClient.dll.config
+D:\soc\HospitalService1\HospitalWebClient\bin\HospitalWebClient.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\HospitalWebClient.pdb
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\csc.exe
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\csc.exe.config
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\csc.rsp
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\csi.exe
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\csi.exe.config
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\csi.rsp
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.Managed.Core.targets
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.AppContext.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Collections.Immutable.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Console.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Globalization.Calendars.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.IO.Compression.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.IO.FileSystem.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Net.Http.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Net.Sockets.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.ValueTuple.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Xml.XmlDocument.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Xml.XPath.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\vbc.exe
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\vbc.exe.config
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\vbc.rsp
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\VBCSCompiler.exe
+D:\soc\HospitalService1\HospitalWebClient\bin\roslyn\VBCSCompiler.exe.config
+D:\soc\HospitalService1\HospitalWebClient\bin\Antlr3.Runtime.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\AspNet.ScriptManager.bootstrap.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\AspNet.ScriptManager.jQuery.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\Microsoft.ScriptManager.WebForms.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\Microsoft.Web.Infrastructure.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\Newtonsoft.Json.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\System.Web.Optimization.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\WebGrease.dll
+D:\soc\HospitalService1\HospitalWebClient\bin\System.Web.Optimization.xml
+D:\soc\HospitalService1\HospitalWebClient\bin\Newtonsoft.Json.xml
+D:\soc\HospitalService1\HospitalWebClient\bin\Antlr3.Runtime.pdb
+D:\soc\HospitalService1\HospitalWebClient\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\soc\HospitalService1\HospitalWebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\soc\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.csprojAssemblyReference.cache
+D:\soc\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.csproj.CoreCompileInputs.cache
+D:\soc\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.csproj.CopyComplete
+D:\soc\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.dll
+D:\soc\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.pdb
+D:\Downloads\HospitalService1\HospitalWebClient\bin\HospitalWebClient.dll.config
+D:\Downloads\HospitalService1\HospitalWebClient\bin\HospitalWebClient.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\HospitalWebClient.pdb
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\csc.exe
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\csc.exe.config
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\csc.rsp
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\csi.exe
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\csi.exe.config
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\csi.rsp
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.AppContext.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Collections.Immutable.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Console.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Globalization.Calendars.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.IO.Compression.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.IO.FileSystem.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Net.Http.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Net.Sockets.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.ValueTuple.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Xml.XPath.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\vbc.exe
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\vbc.exe.config
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\vbc.rsp
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\VBCSCompiler.exe
+D:\Downloads\HospitalService1\HospitalWebClient\bin\roslyn\VBCSCompiler.exe.config
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Antlr3.Runtime.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\AspNet.ScriptManager.jQuery.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Microsoft.Web.Infrastructure.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Newtonsoft.Json.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\System.Web.Optimization.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\WebGrease.dll
+D:\Downloads\HospitalService1\HospitalWebClient\bin\System.Web.Optimization.xml
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Newtonsoft.Json.xml
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Antlr3.Runtime.pdb
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Downloads\HospitalService1\HospitalWebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Downloads\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.csprojAssemblyReference.cache
+D:\Downloads\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.csproj.CoreCompileInputs.cache
+D:\Downloads\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.csproj.CopyComplete
+D:\Downloads\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.dll
+D:\Downloads\HospitalService1\HospitalWebClient\obj\Debug\HospitalWebClient.pdb
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\HospitalWebClient.dll.config
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\HospitalWebClient.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\HospitalWebClient.pdb
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\csc.exe
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\csc.exe.config
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\csc.rsp
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\csi.exe
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\csi.exe.config
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\csi.rsp
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.Managed.Core.targets
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.AppContext.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Collections.Immutable.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Console.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Globalization.Calendars.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.IO.Compression.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.IO.FileSystem.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Net.Http.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Net.Sockets.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.ValueTuple.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Xml.XmlDocument.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Xml.XPath.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\vbc.exe
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\vbc.exe.config
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\vbc.rsp
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\VBCSCompiler.exe
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\roslyn\VBCSCompiler.exe.config
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Antlr3.Runtime.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\AspNet.ScriptManager.bootstrap.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\AspNet.ScriptManager.jQuery.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Microsoft.ScriptManager.WebForms.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Microsoft.Web.Infrastructure.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Newtonsoft.Json.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\System.Web.Optimization.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\WebGrease.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\System.Web.Optimization.xml
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Newtonsoft.Json.xml
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Antlr3.Runtime.pdb
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\obj\Debug\HospitalWebClient.csprojAssemblyReference.cache
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\obj\Debug\HospitalWebClient.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\obj\Debug\HospitalWebClient.csproj.CopyComplete
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\obj\Debug\HospitalWebClient.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HospitalWebClient\obj\Debug\HospitalWebClient.pdb

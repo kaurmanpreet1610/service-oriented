@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://Salary.Milestone1.SC13Project" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ax2377="http://Salary.Milestone1.SC13Project/xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://Salary.Milestone1.SC13Project">
+    <wsdl:documentation>
+		This service lets you manage SIS in full security, Your Salary will be Secured.
+	</wsdl:documentation>
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://Salary.Milestone1.SC13Project/xsd">
+            <xs:complexType name="SISException">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema xmlns:ax2378="http://Salary.Milestone1.SC13Project/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://Salary.Milestone1.SC13Project">
+            <xs:import namespace="http://Salary.Milestone1.SC13Project/xsd"/>
+            <xs:element name="queryAccount">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="accountID" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="queryAccountResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SalarySISException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="SISException" nillable="true" type="ax2377:SISException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="transfer">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="accountID1" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="accountID2" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="amount" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="transferResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="transferRequest">
+        <wsdl:part name="parameters" element="ns:transfer"/>
+    </wsdl:message>
+    <wsdl:message name="transferResponse">
+        <wsdl:part name="parameters" element="ns:transferResponse"/>
+    </wsdl:message>
+    <wsdl:message name="SalarySISException">
+        <wsdl:part name="parameters" element="ns:SalarySISException"/>
+    </wsdl:message>
+    <wsdl:message name="queryAccountRequest">
+        <wsdl:part name="parameters" element="ns:queryAccount"/>
+    </wsdl:message>
+    <wsdl:message name="queryAccountResponse">
+        <wsdl:part name="parameters" element="ns:queryAccountResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="SalaryPortType">
+        <wsdl:operation name="transfer">
+            <wsdl:input message="ns:transferRequest" wsaw:Action="urn:transfer"/>
+            <wsdl:output message="ns:transferResponse" wsaw:Action="urn:transferResponse"/>
+            <wsdl:fault message="ns:SalarySISException" name="SalarySISException" wsaw:Action="urn:transferSalarySISException"/>
+        </wsdl:operation>
+        <wsdl:operation name="queryAccount">
+            <wsdl:input message="ns:queryAccountRequest" wsaw:Action="urn:queryAccount"/>
+            <wsdl:output message="ns:queryAccountResponse" wsaw:Action="urn:queryAccountResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="SalarySoap11Binding" type="ns:SalaryPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="transfer">
+            <soap:operation soapAction="urn:transfer" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="SalarySISException">
+                <soap:fault use="literal" name="SalarySISException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="queryAccount">
+            <soap:operation soapAction="urn:queryAccount" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="SalarySoap12Binding" type="ns:SalaryPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="transfer">
+            <soap12:operation soapAction="urn:transfer" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="SalarySISException">
+                <soap12:fault use="literal" name="SalarySISException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="queryAccount">
+            <soap12:operation soapAction="urn:queryAccount" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="SalaryHttpBinding" type="ns:SalaryPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="transfer">
+            <http:operation location="transfer"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="queryAccount">
+            <http:operation location="queryAccount"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="Salary">
+        <wsdl:port name="SalaryHttpSoap11Endpoint" binding="ns:SalarySoap11Binding">
+            <soap:address location="http://vmjacobsen4.informatik.tu-muenchen.de:8080/axis2/services/g14/Salary.SalaryHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="SalaryHttpSoap12Endpoint" binding="ns:SalarySoap12Binding">
+            <soap12:address location="http://vmjacobsen4.informatik.tu-muenchen.de:8080/axis2/services/g14/Salary.SalaryHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="SalaryHttpEndpoint" binding="ns:SalaryHttpBinding">
+            <http:address location="http://vmjacobsen4.informatik.tu-muenchen.de:8080/axis2/services/g14/Salary.SalaryHttpEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
+

@@ -1,0 +1,45 @@
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\bin\Debug\HPDB.mdf
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\bin\Debug\HPDB_log.ldf
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\bin\Debug\HostHospital.exe.config
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\bin\Debug\HostHospital.exe
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\bin\Debug\HostHospital.pdb
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\obj\Debug\HostHospital.csprojAssemblyReference.cache
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\obj\Debug\HostHospital.csproj.CoreCompileInputs.cache
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\obj\Debug\HostHospital.exe
+C:\Users\DHRUV\OneDrive\Desktop\SOC\HospitalService1\HostHospital\obj\Debug\HostHospital.pdb
+D:\soc\HospitalService1\HostHospital\bin\Debug\HPDB.mdf
+D:\soc\HospitalService1\HostHospital\bin\Debug\HPDB_log.ldf
+D:\soc\HospitalService1\HostHospital\bin\Debug\HostHospital.exe.config
+D:\soc\HospitalService1\HostHospital\bin\Debug\HostHospital.exe
+D:\soc\HospitalService1\HostHospital\bin\Debug\HostHospital.pdb
+D:\soc\HospitalService1\HostHospital\obj\Debug\HostHospital.csprojAssemblyReference.cache
+D:\soc\HospitalService1\HostHospital\obj\Debug\HostHospital.csproj.CoreCompileInputs.cache
+D:\soc\HospitalService1\HostHospital\obj\Debug\HostHospital.exe
+D:\soc\HospitalService1\HostHospital\obj\Debug\HostHospital.pdb
+D:\soc\HospitalService1\HostHospital\bin\Debug\HospitalService1.dll
+D:\soc\HospitalService1\HostHospital\bin\Debug\HospitalService1.pdb
+D:\soc\HospitalService1\HostHospital\bin\Debug\HospitalService1.dll.config
+D:\soc\HospitalService1\HostHospital\obj\Debug\HostHospital.csproj.CopyComplete
+D:\Downloads\HospitalService1\HostHospital\bin\Debug\HPDB.mdf
+D:\Downloads\HospitalService1\HostHospital\bin\Debug\HPDB_log.ldf
+D:\Downloads\HospitalService1\HostHospital\bin\Debug\HostHospital.exe.config
+D:\Downloads\HospitalService1\HostHospital\bin\Debug\HostHospital.exe
+D:\Downloads\HospitalService1\HostHospital\bin\Debug\HostHospital.pdb
+D:\Downloads\HospitalService1\HostHospital\bin\Debug\HospitalService1.dll
+D:\Downloads\HospitalService1\HostHospital\bin\Debug\HospitalService1.pdb
+D:\Downloads\HospitalService1\HostHospital\bin\Debug\HospitalService1.dll.config
+D:\Downloads\HospitalService1\HostHospital\obj\Debug\HostHospital.csprojAssemblyReference.cache
+D:\Downloads\HospitalService1\HostHospital\obj\Debug\HostHospital.csproj.CoreCompileInputs.cache
+D:\Downloads\HospitalService1\HostHospital\obj\Debug\HostHospital.csproj.CopyComplete
+D:\Downloads\HospitalService1\HostHospital\obj\Debug\HostHospital.exe
+D:\Downloads\HospitalService1\HostHospital\obj\Debug\HostHospital.pdb
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\bin\Debug\HPDB.mdf
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\bin\Debug\HPDB_log.ldf
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\bin\Debug\HospitalService1.dll
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\bin\Debug\HospitalService1.pdb
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\bin\Debug\HospitalService1.dll.config
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\obj\Debug\HostHospital.csprojAssemblyReference.cache
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\obj\Debug\HostHospital.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\obj\Debug\HostHospital.csproj.CopyComplete
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\obj\Debug\HostHospital.exe
+D:\PROJECTS\Charanjit S\SOA design\Employee Management System\EMS\HostHospital\obj\Debug\HostHospital.pdb

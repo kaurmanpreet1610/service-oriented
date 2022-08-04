@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy xmlns="http://www.apache.org/ode/schemas/dd/2007/03"
+ xmlns:Devivery="http://Empregis.Milestone1.SC13Project" 
+ xmlns:ns="http://employeemanagement.Milestone3.SC13Project/"
+ xmlns:paying="http://Notification.Milestone1.SC13Project"
+ xmlns:shipping="http://Salary.Milestone1.SC12Project"
+  <process name="ns:g14-EmployeeManagement">
+    <active>true</active>
+    <retired>false</retired>
+    <process-events generate="all"/>
+    <provide partnerLink="client">
+      <service name="ns:g14-WTA" port="EmployeeManagement"/>
+    </provide>
+    <invoke partnerLink="EMPRegisWS">
+      <service name="StoreRegis:STRWS" port="STRWSHttpSoap11Endpoint"/>
+    </invoke>
+    <invoke partnerLink="NotificationServicePL">
+      <service name="Notification:NotificationImpl" port="NotificationImplHttpSoap11Endpoint"/>
+    </invoke>
+    <invoke partnerLink="SalaryWS">
+      <service name="paying:Salary" port="SalaryHttpSoap11Endpoint"/>
+    </invoke>
+  </process>
+</deploy>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0fafbf4c-d13d-4b7f-8e29-136d8f3ba62a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/SalaryService/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="f0b5b7a8-eb87-4eb6-98f6-c73602a9564f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SalaryService/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="ef946a61-c4de-4edc-a3da-7c0a2f26dfc7" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SalaryService/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="412d0218-530d-4669-96ef-819291ecd73f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SalaryService/Service1/mex" />
+    <MetadataFile FileName="HospitalService1.xsd" MetadataType="Schema" ID="658aaab1-bec7-4ba5-a08c-2cf954a2ea48" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SalaryService/Service1/mex" />
+    <MetadataFile FileName="System.Data.xsd" MetadataType="Schema" ID="f3287573-3631-44a9-a2e6-d5426caa899d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SalaryService/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns="http://Webservice.app.com" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://Webservice.app.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+		Please Type your service description here
+	</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://Webservice.app.com">
+      <xs:element name="register">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registerResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="loginAdmin">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="loginAdminResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="login">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="loginResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="edit">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="id" type="xs:int" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="editResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="delete">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="id" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="loginAdminRequest">
+    <wsdl:part name="parameters" element="ns:loginAdmin" />
+  </wsdl:message>
+  <wsdl:message name="loginAdminResponse">
+    <wsdl:part name="parameters" element="ns:loginAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="editRequest">
+    <wsdl:part name="parameters" element="ns:edit" />
+  </wsdl:message>
+  <wsdl:message name="editResponse">
+    <wsdl:part name="parameters" element="ns:editResponse" />
+  </wsdl:message>
+  <wsdl:message name="loginRequest">
+    <wsdl:part name="parameters" element="ns:login" />
+  </wsdl:message>
+  <wsdl:message name="loginResponse">
+    <wsdl:part name="parameters" element="ns:loginResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteRequest">
+    <wsdl:part name="parameters" element="ns:delete" />
+  </wsdl:message>
+  <wsdl:message name="registerRequest">
+    <wsdl:part name="parameters" element="ns:register" />
+  </wsdl:message>
+  <wsdl:message name="registerResponse">
+    <wsdl:part name="parameters" element="ns:registerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EmployeeregistrationPortType">
+    <wsdl:operation name="loginAdmin">
+      <wsdl:input wsaw:Action="urn:loginAdmin" message="ns:loginAdminRequest" />
+      <wsdl:output wsaw:Action="urn:loginAdminResponse" message="ns:loginAdminResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="edit">
+      <wsdl:input wsaw:Action="urn:edit" message="ns:editRequest" />
+      <wsdl:output wsaw:Action="urn:editResponse" message="ns:editResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <wsdl:input wsaw:Action="urn:login" message="ns:loginRequest" />
+      <wsdl:output wsaw:Action="urn:loginResponse" message="ns:loginResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input wsaw:Action="urn:delete" message="ns:deleteRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="register">
+      <wsdl:input wsaw:Action="urn:register" message="ns:registerRequest" />
+      <wsdl:output wsaw:Action="urn:registerResponse" message="ns:registerResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EmployeeregistrationSoap11Binding" type="ns:EmployeeregistrationPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="loginAdmin">
+      <soap:operation soapAction="urn:loginAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="edit">
+      <soap:operation soapAction="urn:edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <soap:operation soapAction="urn:login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap:operation soapAction="urn:delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="register">
+      <soap:operation soapAction="urn:register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EmployeeregistrationSoap12Binding" type="ns:EmployeeregistrationPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="loginAdmin">
+      <soap12:operation soapAction="urn:loginAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="edit">
+      <soap12:operation soapAction="urn:edit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <soap12:operation soapAction="urn:login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap12:operation soapAction="urn:delete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="register">
+      <soap12:operation soapAction="urn:register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EmployeeregistrationHttpBinding" type="ns:EmployeeregistrationPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="loginAdmin">
+      <http:operation location="loginAdmin" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="edit">
+      <http:operation location="edit" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <http:operation location="login" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <http:operation location="delete" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="register">
+      <http:operation location="register" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Employeeregistration">
+    <wsdl:port name="EmployeeregistrationHttpSoap11Endpoint" binding="ns:EmployeeregistrationSoap11Binding">
+      <soap:address location="http://localhost:8080/EMS_SOAP/services/Employeeregistration.EmployeeregistrationHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="EmployeeregistrationHttpSoap12Endpoint" binding="ns:EmployeeregistrationSoap12Binding">
+      <soap12:address location="http://localhost:8080/EMS_SOAP/services/Employeeregistration.EmployeeregistrationHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="EmployeeregistrationHttpEndpoint" binding="ns:EmployeeregistrationHttpBinding">
+      <http:address location="http://localhost:8080/EMS_SOAP/services/Employeeregistration.EmployeeregistrationHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

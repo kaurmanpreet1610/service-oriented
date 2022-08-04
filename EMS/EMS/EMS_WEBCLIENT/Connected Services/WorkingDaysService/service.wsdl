@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WorkingDaysService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/HospitalService1" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWorkingDaysService_GetWDDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWDDetails" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_GetWDDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWDDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_InsertWDDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertWDDetails" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_InsertWDDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertWDDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_GetAllWD_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllWD" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_GetAllWD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllWDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_UpdateWD_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWD" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_UpdateWD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_DeleteWD_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteWD" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_DeleteWD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteWDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_deleteWD_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteWD" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_deleteWD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteWDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_FindById_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindById" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_FindById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_getWDs_InputMessage">
+    <wsdl:part name="parameters" element="tns:getWDs" />
+  </wsdl:message>
+  <wsdl:message name="IWorkingDaysService_getWDs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getWDsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWorkingDaysService">
+    <wsdl:operation name="GetWDDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWorkingDaysService/GetWDDetails" message="tns:IWorkingDaysService_GetWDDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWorkingDaysService/GetWDDetailsResponse" message="tns:IWorkingDaysService_GetWDDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertWDDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWorkingDaysService/InsertWDDetails" message="tns:IWorkingDaysService_InsertWDDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWorkingDaysService/InsertWDDetailsResponse" message="tns:IWorkingDaysService_InsertWDDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllWD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWorkingDaysService/GetAllWD" message="tns:IWorkingDaysService_GetAllWD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWorkingDaysService/GetAllWDResponse" message="tns:IWorkingDaysService_GetAllWD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWorkingDaysService/UpdateWD" message="tns:IWorkingDaysService_UpdateWD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWorkingDaysService/UpdateWDResponse" message="tns:IWorkingDaysService_UpdateWD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteWD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWorkingDaysService/DeleteWD" message="tns:IWorkingDaysService_DeleteWD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWorkingDaysService/DeleteWDResponse" message="tns:IWorkingDaysService_DeleteWD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteWD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWorkingDaysService/deleteWD" message="tns:IWorkingDaysService_deleteWD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWorkingDaysService/deleteWDResponse" message="tns:IWorkingDaysService_deleteWD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWorkingDaysService/FindById" message="tns:IWorkingDaysService_FindById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWorkingDaysService/FindByIdResponse" message="tns:IWorkingDaysService_FindById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getWDs">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWorkingDaysService/getWDs" message="tns:IWorkingDaysService_getWDs_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWorkingDaysService/getWDsResponse" message="tns:IWorkingDaysService_getWDs_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWorkingDaysService" type="tns:IWorkingDaysService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWDDetails">
+      <soap:operation soapAction="http://tempuri.org/IWorkingDaysService/GetWDDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertWDDetails">
+      <soap:operation soapAction="http://tempuri.org/IWorkingDaysService/InsertWDDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllWD">
+      <soap:operation soapAction="http://tempuri.org/IWorkingDaysService/GetAllWD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWD">
+      <soap:operation soapAction="http://tempuri.org/IWorkingDaysService/UpdateWD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteWD">
+      <soap:operation soapAction="http://tempuri.org/IWorkingDaysService/DeleteWD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteWD">
+      <soap:operation soapAction="http://tempuri.org/IWorkingDaysService/deleteWD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindById">
+      <soap:operation soapAction="http://tempuri.org/IWorkingDaysService/FindById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getWDs">
+      <soap:operation soapAction="http://tempuri.org/IWorkingDaysService/getWDs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WorkingDaysService">
+    <wsdl:port name="BasicHttpBinding_IWorkingDaysService" binding="tns:BasicHttpBinding_IWorkingDaysService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WorkingDaysService/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
